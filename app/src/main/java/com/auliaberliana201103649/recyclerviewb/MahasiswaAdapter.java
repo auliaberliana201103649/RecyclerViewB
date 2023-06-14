@@ -8,7 +8,6 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
-import java.util.Locale;
 
 public class MahasiswaAdapter extends RecyclerView.Adapter<MahasiswaViewHolder>
 {
@@ -41,7 +40,7 @@ public class MahasiswaAdapter extends RecyclerView.Adapter<MahasiswaViewHolder>
             holder._jkImageView.setImageResource(R.drawable.girl);
         }
 
-        holder._nimTextView.setText(mm.getNim());
+        holder._nimTextView.setText(mm.getNIM());
         holder._namaTextView.setText(mm.getNama());
         holder._jkTextView.setText(mm.getJenisKelamin());
 

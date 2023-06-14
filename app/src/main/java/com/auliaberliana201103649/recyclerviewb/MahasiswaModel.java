@@ -2,18 +2,18 @@ package com.auliaberliana201103649.recyclerviewb;
 
 public class MahasiswaModel
 {
-    private String Nim, Nama, JenisKelamin, JP;
+    private String NIM, Nama, JenisKelamin, JP;
 
     public MahasiswaModel() {
 
     }
 
-    public String getNim() {
-        return Nim;
+    public String getNIM() {
+        return NIM;
     }
 
-    public void setNim(String nim) {
-        Nim = nim;
+    public void setNIM(String NIM) {
+        this.NIM = NIM;
     }
 
     public String getNama() {
